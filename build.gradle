@@ -37,6 +37,9 @@ dependencies {
 
     compile('org.springframework.boot:spring-boot-starter-mustache')
 
+    compile('javax.servlet:jstl')
+    compile("org.apache.tomcat.embed:tomcat-embed-jasper")
+
     testCompileOnly 'org.projectlombok:lombok:1.18.20'
     testAnnotationProcessor 'org.projectlombok:lombok:1.18.20'
 
